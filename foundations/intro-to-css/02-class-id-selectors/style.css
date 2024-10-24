@@ -1,5 +1,15 @@
 .odd {
     background-color: #ff000040;
     font-family: Verdana, DejaVu Sans, sans-serif;
+    
+}
+
+#one {
+    color: blue;
+    font-size: 36px;
+}
+
+#two {
+    background-color: #00ff0040;
     font-size: 24px;
 }
