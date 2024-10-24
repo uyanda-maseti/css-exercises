@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+p + .para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -23,7 +23,7 @@ body {
   font-weight: bold;
 } 
 
-#cancel-button .button .cancel{
+ .button .cancel{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
