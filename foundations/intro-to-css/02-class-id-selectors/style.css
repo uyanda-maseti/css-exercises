@@ -1,3 +1,5 @@
 .odd {
-    background-color: pink;
+    background-color: #ff000040;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-size: 24px;
 }
