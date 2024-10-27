@@ -1,15 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  border: 1px solid red;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  
 }
 
-.left-links {
-  border: 1px solid green;
-  display: flex;
-}
 
 .logo {
   font-size: 48px;
@@ -17,22 +14,42 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  border: 1px solid blue;
+  
 }
 
-.right-links {
-  border: 1px solid green;
+.left-links {
+  
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  display: flex;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-inline-start: 0px;
+  width: 200px;
+  
+}
+.right-links {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
 }
 
+
 a {
-  font-size: 22px;
+  font-size: 20px;
   background: white;
-  padding: 8px;
+  padding: 0;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }
