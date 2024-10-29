@@ -4,6 +4,7 @@
   border: 1px solid blue;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
   
 }
 
@@ -17,7 +18,7 @@
   border: 1px solid #0f0;
   display: flex;
   margin: 0px;
-  padding-left: 10px;
+  padding-left: 0;
   gap: 20px;
 }
 .logo {
@@ -27,6 +28,7 @@
   background: white;
   padding: 4px 32px;
   border: 1px solid red;
+  display: flex;
   
 }
 
