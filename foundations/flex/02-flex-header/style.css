@@ -1,12 +1,14 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  border: 1px solid blue;
   display: flex;
-  justify-content: space-around;
-  padding-inline-start: 0px;
   
 }
 
+.left-links {
+  border: 1px solid red;
+}
 
 .logo {
   font-size: 48px;
@@ -14,39 +16,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  
+  border: 1px solid red;
   
 }
 
-.left-links {
-  
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-  
-  margin-left: -17px;
-  
+.right-links {
+  border: 1px solid red;
 }
+
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 0;
-  display: flex;
-  width: 200px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-inline-start: 0px;
-  width: 200px;
-  
-}
-.right-links {
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-  
-  margin-right: -17px;
+
 }
 
 
