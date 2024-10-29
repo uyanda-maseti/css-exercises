@@ -1,7 +1,6 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -9,13 +8,12 @@
 }
 
 .left-links {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   
 }
 .left-links ul {
-  border: 1px solid #0f0;
+  
   display: flex;
   margin: 0px;
   padding-left: 0;
@@ -27,15 +25,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  border: 1px solid red;
+  
   display: flex;
+  align-items: center;
   
 }
 
 .right-links {
-  border: 1px solid red;
+  
+  display: flex;
 }
 
+.right-links ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 ul {
   /* this removes the dots on the list items*/
