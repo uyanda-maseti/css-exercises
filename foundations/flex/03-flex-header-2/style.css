@@ -15,17 +15,13 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 8px;
-  align-items: center;
+  
 }
 
-.left-side {
+.left-side, .right-side {
   display: flex;
-}
-
-.right-side {
-  display: flex;
-  gap: 8px;
   align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -62,6 +58,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 8px;
-  padding-left: 8px;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
 }
