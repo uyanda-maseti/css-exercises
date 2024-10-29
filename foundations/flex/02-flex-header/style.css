@@ -9,13 +9,16 @@
 
 .left-links {
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  
 }
 .left-links ul {
   border: 1px solid #0f0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  margin: 0px;
+  padding-left: 10px;
+  gap: 20px;
 }
 .logo {
   font-size: 48px;
