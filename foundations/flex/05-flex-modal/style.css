@@ -38,6 +38,11 @@ body {
   margin: 10px;
 }
 
+.header {
+  font-weight: bold;
+  font-size: larger;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
