@@ -43,6 +43,11 @@ body {
   font-size: larger;
 }
 
+.top-right {
+  display: flex;
+  justify-content: space-between;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
