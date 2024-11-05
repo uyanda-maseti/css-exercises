@@ -12,7 +12,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+.left-links {
+  border:  1px solid green;
+  display: flex;
+  list-style-type: none;
+}
 .content {
   border: 1px solid blue;
 }
