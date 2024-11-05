@@ -20,8 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
-  display: flex;  
+  padding: 16px;
+  display: flex;
+  gap: 16px;  
 }
 
 .icon {
@@ -36,6 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 10px;
+  flex-shrink: 0;
 }
 
 .header {
