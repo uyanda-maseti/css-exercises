@@ -7,22 +7,25 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  
 }
 
 .header {
-  border: 1px solid red;
+  
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .header-left-links {
-  border:  1px solid green;
+  
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
   gap: 10px;
   margin: 0;
   padding: 0;
+  
 }
 
 .header-right-links {
@@ -35,9 +38,10 @@ body {
 
 li a {
   text-decoration: none;
+  color: darkgray;
 }
 .content {
-  border: 1px solid blue;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,15 +49,16 @@ li a {
 }
 
 .footer {
-  border: 1px solid green;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
 }
 
 .footer-left-links {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding:0;
   gap: 10px;
   list-style-type: none;
 
