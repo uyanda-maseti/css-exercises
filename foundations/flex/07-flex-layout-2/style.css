@@ -32,9 +32,10 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  flex: 1 0 300px;
   background: royalblue;
   box-sizing: border-box;
+  
 }
 
 ul {
