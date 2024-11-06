@@ -35,11 +35,21 @@ body {
   flex: 1 0 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
   
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+li a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
 }
 .card {
   border: 1px solid #eee;
