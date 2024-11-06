@@ -57,6 +57,7 @@ li a {
   border-radius: 4px;
   width: 300px;
   height: 300px;
+  padding: 10px;
 }
 
 .card-container {
