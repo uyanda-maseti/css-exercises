@@ -15,7 +15,15 @@ body {
 .left-links {
   border:  1px solid green;
   display: flex;
+  justify-content: flex-start;
   list-style-type: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
 }
 .content {
   border: 1px solid blue;
