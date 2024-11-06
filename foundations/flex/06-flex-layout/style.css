@@ -57,7 +57,16 @@ li a {
   gap: 10px;
   list-style-type: none;
 
-}
+} 
+
+.footer-right-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  list-style-type: none;
+
+} 
 
 img {
   width: 600px;
